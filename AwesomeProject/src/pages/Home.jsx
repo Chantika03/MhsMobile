@@ -48,7 +48,7 @@ const Home = () => {
         source={require('../assets/image/burger.jpg')}/>
             
             <Text style={{fontWeight: 'bold', color: 'black'}}>Chesee Burger</Text>
-            <Text style={{color: 'red'}}>Rp. 13.000</Text>
+            <Text style={{color: 'red'}}>Rp. 15.000</Text>
           </View>
           
           <View style={{
@@ -64,7 +64,7 @@ const Home = () => {
              <Image resizeMode="contain" style={{height: 200, width: 180, borderRadius: 12}}
         source={require('../assets/image/ramen.jpg')}/>
             <Text style={{fontWeight: 'bold', color: 'black'}}>Curry Ramen</Text>
-            <Text style={{color: 'red'}}>Rp. 16.000</Text>
+            <Text style={{color: 'red'}}>Rp. 20.000</Text>
           </View>
         </View>
         <View style={{margin: 16}}>
@@ -85,7 +85,7 @@ const Home = () => {
              height: 10, width: 100, borderRadius: 40
             }}/>
             <Image resizeMode="contain" style={{height: 200, width: 180, borderRadius: 12}}
-        source={require('../assets/image/mojito.jpg')}/>
+        source={require('../assets/image/mojito5.jpg')}/>
            <Text style={{fontWeight: 'bold', color: 'black'}}>Mojito Lime</Text>
             <Text style={{color: 'red'}}>Rp. 10.000</Text>
           </View>
@@ -104,18 +104,6 @@ const Home = () => {
             <Text style={{color: 'red'}}>Rp. 8.000</Text>
           </View>
         </View>
-
-        <View style={{
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        height: 60,
-        alignItems: 'center',
-        backgroundColor: 'red',
-        marginHorizontal: 16,
-        marginTop: 16,
-        padding: 16,
-        borderRadius: 40
-      }}></View>
 
 
     </View>
